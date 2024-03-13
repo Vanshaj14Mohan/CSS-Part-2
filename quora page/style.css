@@ -1,0 +1,7 @@
+ *{                              /* universal selector */
+    font-family: sans-serif;
+}
+
+h1,h3{                /*applying properties together */
+    color: #b92b27;   
+}

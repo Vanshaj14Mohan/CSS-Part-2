@@ -21,3 +21,40 @@ h1,h3{                /*applying properties together */
     color:red;
     background-color:blanchedalmond;
 }
+
+/* Descendent selector */
+/* for all the anchor tags in paragraphs */
+.test a{
+    color:purple;
+    background-color:bisque;
+}
+
+/* we can choose multiple levels too. */
+nav ul li a{
+    color:pink;
+}
+
+/*Sibling combinator*/
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    color:blue;
+}
+
+/* Child combinator */
+div > input{
+    color: yellow;
+    background-color: salmon;
+}
+
+/* Attribute selector */
+input[type="password"]{
+    color: blue;
+}
+
+/* we can even apply this on attribute presence too.. */
+/* input[type]{
+    background-color:aqua;
+} */

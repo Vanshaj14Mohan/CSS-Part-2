@@ -54,7 +54,7 @@ input[type="password"]{
     color: blue;
 }
 
-/* we can even apply this on attribute presence too.. */
+/* we can even apply this on attribute presence too.. but we won't use this much*/
 /* input[type]{
     background-color:aqua;
 } */

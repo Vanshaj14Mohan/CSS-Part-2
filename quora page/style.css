@@ -58,3 +58,8 @@ input[type="password"]{
 /* input[type]{
     background-color:aqua;
 } */
+
+/* For test case of paragraph */
+#myId p{
+    color: green;
+}

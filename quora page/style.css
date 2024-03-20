@@ -31,7 +31,7 @@ h1,h3{                /*applying properties together */
 
 /* we can choose multiple levels too. */
 nav ul li a{
-    color:pink;
+    color:green;
 }
 
 /*Sibling combinator*/
@@ -62,4 +62,55 @@ input[type="password"]{
 /* For test case of paragraph */
 #myId p{
     color: green;
+}
+
+/* Pseudo class */
+/* hover */
+button:hover{
+    background-color: white ;
+    color: black;
+}
+
+/* same for h3 headings
+h3:hover{
+    text-decoration:none;
+} */
+
+/* active */
+button:active{
+    background-color: blueviolet;
+    color:black;
+}
+
+p:active{
+    font-weight: bold;
+    color: blueviolet;
+}
+
+/* checked ->radio buttons or for checkbox */
+/* #one:checked+label{
+    font-weight: bold;
+    color:red;
+}
+
+#two:checked+label{
+    font-weight: bold;
+    color:blue;
+} */
+
+
+/* another way to do this, sibling combinator */
+input[type="radio"]:checked + label{
+    font-weight:bold;
+    color:chartreuse;
+}
+
+/* :nth-of-type() */
+/* .test:nth-of-type(2n){
+    background-color:coral;
+}
+or a better case */
+/* 2n->from the top every 2nd element */
+div:nth-of-type(2n){
+    background-color:coral;
 }

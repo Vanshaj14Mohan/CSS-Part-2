@@ -111,6 +111,22 @@ input[type="radio"]:checked + label{
 }
 or a better case */
 /* 2n->from the top every 2nd element */
-div:nth-of-type(2n){
+/* div:nth-of-type(2){
     background-color:coral;
+} */
+
+/* pseudo elements */
+/* for first letter */
+.case::first-letter{
+    color:blue;
+}
+
+/* for first line */
+#test-line::first-line{
+    color:deeppink;
+}
+
+/* for selection */
+#test-line::selection{
+    background-color: aqua;
 }

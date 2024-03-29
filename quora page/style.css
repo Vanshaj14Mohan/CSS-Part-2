@@ -128,5 +128,5 @@ or a better case */
 
 /* for selection */
 #test-line::selection{
-    background-color: aqua;
+    background-color: pink;
 }

@@ -4,3 +4,5 @@ Part 1(for selectors)
 3-> Change the font size of all heading tags in the page 'Georgia'.
 4-> Set the color of all the paragrpahs to white & background color to cornflowerblue(without using the element selector p).
 5-> Select all buttons inside div and change their background color to purple & text color ro azure.
+
+Part 2

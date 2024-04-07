@@ -1,7 +1,23 @@
+/* PART 1 */
+
 #mainTopic{
     color:blue;
 }
 
 *{
     text-align: center;
+}
+
+h1,h3,h5{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.test{
+    color:white;
+    background-color: cornflowerblue;
+}
+
+div button{
+    color:azure;
+    background-color: purple;
 }

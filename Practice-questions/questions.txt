@@ -1,9 +1,9 @@
 Part 1(for selectors)
 1 -> Give the h1 header a unique id - "mainTopic" & set it's color to blue using the id selector.
 2-> Align all the text to the center using a universal selector.
-3-> Change the font size of all heading tags in the page 'Georgia'.
+3-> Change the font style of all heading tags in the page 'Georgia'.
 4-> Set the color of all the paragrpahs to white & background color to cornflowerblue(without using the element selector p).
-5-> Select all buttons inside div and change their background color to purple & text color ro azure.
+5-> Select all buttons inside div and change their background color to purple & text color to azure.
 
 Part 2(Pseduo class & elements)
 6 -> Change the button background color to yellow & text color to blue when we hover over it.
@@ -15,4 +15,3 @@ Part 2(Pseduo class & elements)
 : #mainContent
 : .main
 : div.main
-

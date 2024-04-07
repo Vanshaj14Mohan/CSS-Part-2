@@ -11,7 +11,9 @@ Part 2(Pseduo class & elements)
 8-> Change the color of first letter of h1 heading to red.
 9-> Set the text color of the checkbox label to dark green when the checkbox is ticked.
 10-> Order these rules according to specificity, from last specific to most specific.
-: h1
-: #mainContent
-: .main
-: div.main
+: h1 -4
+: #mainContent -1
+: .main- -3
+: div.main -2
+
+
